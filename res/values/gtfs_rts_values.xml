@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gtfs_rts_db_version">20141002</integer>
+    <string name="gtfs_rts_label">STL Bus</string>
+    <string name="gtfs_rts_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
+    <string name="gtfs_status_for_poi_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
+    <integer name="gtfs_rts_agency_type">3</integer>
+    <string name="gtfs_rts_area_min_lat">45.513296</string>
+    <string name="gtfs_rts_area_max_lat">45.699292</string>
+    <string name="gtfs_rts_area_min_lng">-73.883438</string>
+    <string name="gtfs_rts_area_max_lng">-73.534348</string>
+</resources>
