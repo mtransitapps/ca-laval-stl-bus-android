@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <integer name="gtfs_rts_db_version">20141005</integer>
     <string name="gtfs_rts_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
     <string name="gtfs_status_for_poi_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
