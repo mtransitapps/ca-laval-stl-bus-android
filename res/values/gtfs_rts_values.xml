@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="gtfs_rts_db_version">20141005</integer>
-    <string name="gtfs_rts_label">STL Bus</string>
-    <string name="gtfs_rts_short_name">STL</string>
     <string name="gtfs_rts_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
     <string name="gtfs_status_for_poi_authority">org.mtransit.android.ca_laval_stl_bus.gtfs</string>
     <integer name="gtfs_rts_agency_type">3</integer>
