@@ -1,0 +1,37 @@
+Title: Laval STL Bus for MT
+----------
+Short description: Laval STL bus information for MT.
+----------
+Full description:
+BETA: TEST IN PROGRESS
+To leave the test: http://goo.gl/9af7Aj
+
+This application adds Laval STL bus information in MT.
+
+Once this application is installed, the MT app will display bus information (schedule...).
+
+This application only has a temporary icon and no screen: download the MT app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5m
+
+You can install this application on the SD card but it is not recommended.
+
+The information comes from the GTFS file provided by the Société de Transport de Laval.
+http://www.stl.laval.qc.ca/en/stl-synchro/developers/
+
+This application is free and open-source:
+https://github.com/mtransitapps/ca-laval-stl-bus-android
+
+This app is not related with the Société de Transport de Laval.
+----------
+Application type: Applications
+----------
+Category: Transportation
+----------
+Content rating: Low Maturity
+----------
+Website: https://github.com/mtransitapps/ca-laval-stl-bus-android
+----------
+Email: mtransit.apps+GooglePlay@gmail.com
+----------
+Phone: 
+----------
+Privacy Policy:
