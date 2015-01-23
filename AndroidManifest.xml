@@ -82,6 +82,12 @@
             <meta-data
                 android:name="@string/service_update_provider_target"
                 android:value="@string/next_bus_for_poi_authority" />
+            <meta-data
+                android:name="@string/status_provider"
+                android:value="@string/status_provider" />
+            <meta-data
+                android:name="@string/status_provider_target"
+                android:value="@string/next_bus_for_poi_authority" />
         </provider>
     </application>
 </manifest>
