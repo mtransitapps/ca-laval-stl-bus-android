@@ -2,11 +2,17 @@ Title: Bus STL de Laval (MonTransit)
 ----------
 Short description: Informations des bus STL de Laval pour MonTransit BETA.
 ----------
+What's new in this version?:
+BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
+
+Horaires du 3 Janvier 2015 au 27 Mars 2015.
+----------
 Full description:
-BETA : TEST EN COURS
-Pour quitter le test : http://goo.gl/9af7Aj
+BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
 Cette application ajoute les informations des bus STL de Laval à MonTransit BETA.
+
+La STL dessert Laval et Montréal.
 
 Une fois cette application installée, l'application MonTransit BETA affichera les informations des bus (horaires ...).
 
@@ -21,3 +27,6 @@ Cette application est gratuite et open-source :
 https://github.com/mtransitapps/ca-laval-stl-bus-android
 
 Cette application n'est pas associée au Société de Transport de Laval.
+
+Autorisations :
+- Autres : requis pour les prédictions horaires & messages d'alertes en temps réel (NextBus)
