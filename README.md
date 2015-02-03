@@ -1,4 +1,4 @@
 ca-laval-stl-bus-android
 ========================
 
-Laval STL Bus for MT
+Laval STL Bus for MonTransit BETA
