@@ -1,6 +1,8 @@
 Title: Bus STL de Laval (MonTransit)
 ----------
-Short description: Informations des bus STL de Laval pour MonTransit BETA.
+Short description:
+Bus STL de Laval pour MonTransit BETA
+Horaires. Prédictions & alertes temps réel
 ----------
 What's new in this version?:
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
@@ -12,7 +14,9 @@ BETA : Merci de votre patience pendant que les dernières fonctionnalités sont 
 
 Cette application ajoute les informations des bus STL de Laval à MonTransit BETA.
 
-La STL dessert Laval et Montréal.
+L'application contient les prévisions horaires ansi que les prédictions et alertes en temps-réel de NextBus.
+
+La STL dessert Laval et Montréal au Québec, Canada.
 
 Une fois cette application installée, l'application MonTransit BETA affichera les informations des bus (horaires ...).
 

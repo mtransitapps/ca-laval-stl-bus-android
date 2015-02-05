@@ -1,6 +1,8 @@
 Title: Laval STL Bus (MonTransit)
 ----------
-Short description: Laval STL bus information for MonTransit BETA.
+Short description:
+Laval STL bus for MonTransit BETA.
+Schedule. Real time predictions & alerts.
 ----------
 What's new in this version?:
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
@@ -12,7 +14,9 @@ BETA: Thanks for your patience while the last features are being added and the l
 
 This application adds Laval STL bus information to MonTransit BETA.
 
-STL serves Laval and Montreal.
+The app contains the planned schedule as well as real time predictions and alerts from NextBus.
+
+STL serves Laval and Montreal in Quebec, Canada.
 
 Once this application is installed, the MonTransit BETA app will display bus information (schedule...).
 
