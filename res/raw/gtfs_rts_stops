@@ -1,7 +1,7 @@
 40002,'40002','Terminus Henri-Bourassa Quai:6',45.555772,-73.66925
-40031,'40031','Terminus Henri-Bourassa',45.555772,-73.66925
-40052,'40052','Terminus Henri-Bourassa',45.555732,-73.66901
-40055,'40055','Terminus Henri-Bourassa',45.555772,-73.66925
+40031,'40031','Terminus Henri-Bourassa Quai:6',45.555772,-73.66925
+40052,'40052','Terminus Henri-Bourassa Quai:7',45.555732,-73.66901
+40055,'40055','Terminus Henri-Bourassa Quai:6',45.555772,-73.66925
 40102,'40102','Terminus Henri-Bourassa',45.556317,-73.66987
 40131,'40131','Terminus Henri-Bourassa',45.556318,-73.66987
 40144,'40144','Métro Côte-Vertu Quai:20',45.513218,-73.6827
@@ -10,7 +10,7 @@
 40155,'40155','Terminus Henri-Bourassa',45.556319,-73.66987
 40244,'40244','Métro Côte-Vertu',45.513219,-73.68271
 40251,'40251','Métro Côte-Vertu',45.51336,-73.68252
-40252,'40252','Terminus Henri-Bourassa',45.555732,-73.66901
+40252,'40252','Terminus Henri-Bourassa Quai:7',45.555732,-73.66901
 40253,'40253','Terminus Henri-Bourassa',45.556318,-73.66987
 40802,'40802','Métro Côte-Vertu',45.513512,-73.68209
 40902,'40902','Métro Côte-Vertu Quai:18',45.513511,-73.68209
@@ -2123,12 +2123,12 @@
 44039,'44039','Terminus Le Carrefour',45.568901,-73.7484
 44042,'44042','Terminus Le Carrefour Quai:8',45.568299,-73.74827
 44050,'44050','Terminus Le Carrefour Quai:7',45.568315,-73.74795
-44056,'44056','Terminus Le Carrefour',45.568427,-73.74846
-44060,'44060','Terminus Le Carrefour',45.568569,-73.74861
-44061,'44061','Terminus Le Carrefour',45.568916,-73.74791
+44056,'44056','Terminus Le Carrefour Quai:9',45.568427,-73.74846
+44060,'44060','Terminus Le Carrefour Quai:10',45.568569,-73.74861
+44061,'44061','Terminus Le Carrefour Quai:3',45.568916,-73.74791
 44063,'44063','Terminus Le Carrefour Quai:3',45.568916,-73.74791
-44066,'44066','Terminus Le Carrefour',45.568569,-73.74861
-44070,'44070','Terminus Le Carrefour',45.568472,-73.74814
+44066,'44066','Terminus Le Carrefour Quai:10',45.568569,-73.74861
+44070,'44070','Terminus Le Carrefour Quai:6',45.568472,-73.74814
 44139,'44139','Terminus Le Carrefour Quai:6',45.568472,-73.74814
 44142,'44142','Terminus Le Carrefour',45.56857,-73.74861
 44150,'44150','Terminus Le Carrefour',45.568899,-73.7484
@@ -2139,7 +2139,7 @@
 44166,'44166','Terminus Le Carrefour',45.568572,-73.74861
 44170,'44170','Terminus Le Carrefour Quai:7',45.568315,-73.74795
 44902,'44902','Terminus Le Carrefour Quai:8',45.568299,-73.74827
-44903,'44903','Terminus Le Carrefour',45.568776,-73.74777
+44903,'44903','Terminus Le Carrefour Quai:2',45.568776,-73.74777
 44912,'44912','Terminus Le Carrefour',45.568569,-73.74862
 44913,'44913','Terminus Le Carrefour Quai:7',45.568315,-73.74795
 45001,'45001','Montgolfier / Notre-Dame',45.5326,-73.78099
@@ -2668,7 +2668,9 @@
 46539,'46539','Ambassadeurs / Monarque',45.623624,-73.68288
 46540,'46540','Terminus 9e Avenue',45.642267,-73.76836
 46541,'46541','Terminus 9e Avenue',45.641778,-73.76824
-47002,'47002','Métro Cartier',45.559923,-73.6825
+46542,'46542','Pie-Ix / Industriel',45.583854,-73.63014
+46543,'46543','Pie-Ix / Industriel',45.583875,-73.62968
+47002,'47002','Métro Cartier Quai:2',45.559923,-73.6825
 47012,'47012','Métro Cartier Quai:10',45.559938,-73.6824
 47017,'47017','Métro Cartier Quai:2',45.559923,-73.6825
 47020,'47020','Métro Cartier Quai:8',45.559744,-73.68279
@@ -2676,7 +2678,7 @@
 47025,'47025','Métro Cartier Quai:9',45.559843,-73.68259
 47027,'47027','Métro Cartier Quai:4',45.559732,-73.68288
 47028,'47028','Métro Cartier Quai:9',45.559843,-73.68259
-47031,'47031','Métro Cartier',45.559923,-73.6825
+47031,'47031','Métro Cartier Quai:2',45.559923,-73.6825
 47033,'47033','Métro Cartier Quai:7',45.559647,-73.68298
 47037,'47037','Métro Cartier Quai:7',45.559647,-73.68298
 47041,'47041','Métro Cartier Quai:4',45.559732,-73.68288
@@ -2688,7 +2690,7 @@
 47070,'47070','Métro Cartier Quai:10',45.559938,-73.6824
 47073,'47073','Métro Cartier Quai:3',45.559824,-73.6827
 47074,'47074','Métro Cartier Quai:3',45.559824,-73.6827
-47102,'47102','Métro Cartier',45.559923,-73.6825
+47102,'47102','Métro Cartier Quai:2',45.559923,-73.6825
 47112,'47112','Métro Cartier',45.559957,-73.68249
 47117,'47117','Métro Cartier',45.56004,-73.68239
 47120,'47120','Métro Cartier',45.560046,-73.68238
@@ -2708,11 +2710,11 @@
 47170,'47170','Métro Cartier',45.559957,-73.68249
 47173,'47173','Métro Cartier',45.559957,-73.68249
 47174,'47174','Métro Cartier',45.559957,-73.68249
-47901,'47901','Métro Cartier',45.559524,-73.68315
+47901,'47901','Métro Cartier Quai:6',45.559524,-73.68315
 47911,'47911','Métro Cartier',45.559957,-73.68249
-48002,'48002','Métro Montmorency',45.557936,-73.72082
-48026,'48026','Métro Montmorency',45.557936,-73.72082
-48033,'48033','Métro Montmorency',45.558146,-73.72013
+48002,'48002','Métro Montmorency Quai:6',45.557936,-73.72082
+48026,'48026','Métro Montmorency Quai:6',45.557936,-73.72082
+48033,'48033','Métro Montmorency Quai:8',45.558146,-73.72013
 48039,'48039','Métro Montmorency Quai:2',45.558562,-73.72043
 48040,'48040','Métro Montmorency Quai:9',45.558244,-73.71991
 48045,'48045','Métro Montmorency Quai:9',45.558244,-73.71991
