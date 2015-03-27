@@ -5,7 +5,7 @@ Laval STL bus for MonTransit BETA.
 Schedule. Real time predictions & alerts.
 ----------
 What's new in this version?:
-Schedule from January 3, 2015 to March 27, 2015.
+Schedule from March 28, 2015 to June 19, 2015.
 Tweets from @stlsynchro.
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
@@ -13,7 +13,7 @@ BETA: Thanks for your patience while the last features are being added and the l
 Full description:
 This application adds Laval STL buses information to MonTransit BETA.
 
-The app contains the planned schedule as well as real time predictions and alerts from NextBus and the latest news from @stlsynchro on Twitter.
+The app contains the planned schedule as well as real time predictions and alerts from NextBus and the latest news from YouTube and @stlsynchro on Twitter.
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 
@@ -34,7 +34,7 @@ https://github.com/mtransitapps/ca-laval-stl-bus-android
 This app is not related with the Société de Transport de Laval.
 
 Permissions:
-- Other: required for real-time schedule predictions & alert messages (NextBus) & to read news (Twitter)
+- Other: required for real-time schedule predictions & alert messages (NextBus) & to read news from YouTube and Twitter.
 ----------
 Application type: Applications
 ----------

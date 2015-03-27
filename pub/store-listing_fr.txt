@@ -5,7 +5,7 @@ Bus STL de Laval pour MonTransit BETA
 Horaires. Prédictions & alertes temps réel
 ----------
 What's new in this version?:
-Horaires du 3 Janvier 2015 au 27 Mars 2015.
+Horaires du 28 Mars 2015 au 19 Juin 2015.
 Tweets de @stlsynchro.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
@@ -13,7 +13,7 @@ BETA : Merci de votre patience pendant que les dernières fonctionnalités sont 
 Full description:
 Cette application ajoute les informations des autobus STL de Laval à MonTransit BETA.
 
-L'application contient les prévisions horaires ansi que les prédictions et alertes en temps-réel de NextBus et les dernière nouvelles de @stlsynchro sur Twitter.
+L'application contient les prévisions horaires ansi que les prédictions et alertes en temps-réel de NextBus et les dernière nouvelles de YouTube et @stlsynchro sur Twitter.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
@@ -34,4 +34,4 @@ https://github.com/mtransitapps/ca-laval-stl-bus-android
 Cette application n'est pas associée au Société de Transport de Laval.
 
 Autorisations :
-- Autres : requis pour les prédictions horaires & messages d'alertes en temps réel (NextBus) & pour lire les nouvelles (Twitter).
+- Autres : requis pour les prédictions horaires & messages d'alertes en temps réel (NextBus) & pour lire les nouvelles de YouTube et Twitter.
