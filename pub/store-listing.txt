@@ -1,7 +1,7 @@
 Title: Laval STL Bus - MonTransit
 ----------
 Short description:
-Laval STL bus for MonTransit.
+Laval STL buses for MonTransit.
 Schedule. Real time predictions & alerts.
 ----------
 What's new in this version?:

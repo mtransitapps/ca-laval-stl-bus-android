@@ -1,8 +1,8 @@
 Title: Bus STL de Laval - MonTransit
 ----------
 Short description:
-Bus STL de Laval pour MonTransit
-Horaires. Prédictions & alertes temps réel
+Autobus STL de Laval pour MonTransit
+Horaires. Prédictions & alertes temps réel.
 ----------
 What's new in this version?:
 Horaires du 28 Mars 2015 au 19 Juin 2015.
