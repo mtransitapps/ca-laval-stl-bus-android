@@ -4,6 +4,8 @@
     <string name="next_bus_agency_tag">stl</string>
     <string name="next_bus_authority">org.mtransit.android.ca_laval_stl_bus.nextbus</string>
     <string name="next_bus_for_poi_authority">@string/gtfs_rts_authority</string>
+    <bool name="next_bus_use_stop_code_as_stop_id">false</bool>
+    <bool name="next_bus_use_stop_id_as_stop_tag">false</bool>
     <string name="next_bus_messages_text_language_code">fr</string>
     <string name="next_bus_messages_text_secondary_language_code">en</string>
     <string name="next_bus_messages_text_bold_words">(pas de service|retard|non desservi[s]?)</string>
