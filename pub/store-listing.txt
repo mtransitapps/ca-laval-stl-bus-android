@@ -5,7 +5,7 @@ Laval STL buses for MonTransit.
 Schedule. Real time predictions & alerts.
 ----------
 What's new in this version?:
-Schedule from March 28, 2015 to June 19, 2015.
+Schedule from June 20, 2015 to August 21, 2015.
 Tweets from @stlsynchro.
 ----------
 Full description:
