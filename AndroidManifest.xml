@@ -71,7 +71,7 @@
         </provider>
         <!-- NEXT BUS PROVIDER -->
         <provider
-            android:name="org.mtransit.android.commons.provider.CaLavalSTLBusNextBusProvider"
+            android:name="org.mtransit.android.commons.provider.NextBusProvider"
             android:authorities="@string/next_bus_authority"
             android:exported="true"
             android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER"

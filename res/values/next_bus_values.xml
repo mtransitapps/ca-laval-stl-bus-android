@@ -10,4 +10,17 @@
     <string name="next_bus_messages_text_secondary_language_code">en</string>
     <string name="next_bus_messages_text_bold_words">(pas de service|retard|non desservi[s]?)</string>
     <string name="next_bus_messages_text_secondary_bold_words">(no service|delay)</string>
+    <bool name="next_bus_route_tag_append_headsign_value">true</bool>
+    <string-array name="next_bus_route_tag_headsign_values_replace_from">
+        <item>W</item> <!-- EN (default) -->
+    </string-array>
+    <string-array name="next_bus_route_tag_headsign_values_replace_to">
+        <item>O</item> <!-- FR (in API) -->
+    </string-array>
+    <string-array name="next_bus_stop_tag_clean_regex">
+        <item>(^CP)</item>
+    </string-array>
+    <string-array name="next_bus_stop_tag_clean_replacement">
+        <item></item> <!-- empty string (remove) -->
+    </string-array>
 </resources>
