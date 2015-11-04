@@ -23,4 +23,25 @@
     <string-array name="next_bus_stop_tag_clean_replacement">
         <item></item> <!-- empty string (remove) -->
     </string-array>
+    <bool name="next_bus_schedule_head_sign_clean_street_types">false</bool>
+    <bool name="next_bus_schedule_head_sign_clean_street_types_fr_ca">true</bool>
+    <string-array name="next_bus_schedule_head_sign_clean_regex">
+        <item>(saint)</item>
+    </string-array>
+    <string-array name="next_bus_schedule_head_sign_clean_replacement">
+        <item>St</item>
+    </string-array>
+    <integer name="next_bus_schedule_head_sign_use_predictions_route_title">1</integer> <!-- TRUE -->
+    <string-array name="next_bus_schedule_head_sign_predictions_route_title_regex">
+        <item>([\\d]+ direction )</item>
+    </string-array>
+    <string-array name="next_bus_schedule_head_sign_predictions_route_title_replacement">
+        <item></item> <!-- empty string (remove) -->
+    </string-array>
+    <integer name="next_bus_schedule_head_sign_use_direction_title">0</integer> <!-- FALSE -->
+    <string-array name="next_bus_schedule_head_sign_direction_title_regex" />
+    <string-array name="next_bus_schedule_head_sign_direction_title_replacement" />
+    <integer name="next_bus_schedule_head_sign_use_predictions_dir_title_because_no_predictions">0</integer> <!-- FALSE -->
+    <string-array name="next_bus_schedule_head_sign_predictions_dir_title_because_no_predictions_regex" />
+    <string-array name="next_bus_schedule_head_sign_predictions_dir_title_because_no_predictions_replacement" />
 </resources>
