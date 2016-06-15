@@ -336,7 +336,7 @@
 41387,'41387','Concorde / Parc',45.600425,-73.65625
 41388,'41388','Concorde / Aréna Concorde',45.601625,-73.65445
 41389,'41389','Concorde / Rose-De-Lima',45.602066,-73.65418
-41390,'41390','Concorde / Vanier',45.603663,-73.65066
+41390,'41390','Concorde / Vanier',45.603644,-73.6507
 41391,'41391','Concorde / Laval',45.559797,-73.71266
 41392,'41392','Concorde / Vanier',45.604032,-73.65059
 41393,'41393','Concorde / Lévesque',45.603306,-73.6486
@@ -730,7 +730,7 @@
 41862,'41862','Laurentides / Prud''homme',45.626027,-73.75109
 41863,'41863','Laurentides / Prud''homme',45.626269,-73.75151
 41864,'41864','Laurentides / Piron',45.628433,-73.75183
-41865,'41865','Laurentides / Grenon',45.563562,-73.68434
+41865,'41865','Laurentides / Grenon',45.563491,-73.68424
 41866,'41866','Laurentides / Piron',45.628586,-73.7522
 41867,'41867','Laurentides / Perron',45.629939,-73.75222
 41868,'41868','Laurentides / Ste-Rose',45.630991,-73.75281
@@ -1326,7 +1326,7 @@
 42511,'42511','Notre-Dame / Wilfrid-Laurier',45.542537,-73.74392
 42512,'42512','Notre-Dame / Wilfrid-Laurier',45.542559,-73.7434
 42513,'42513','Notre-Dame / 80e Avenue',45.542086,-73.74528
-42514,'42514','Notre-Dame / 80e Avenue',45.541752,-73.74583
+42514,'42514','Notre-Dame / 80e Avenue',45.5416,-73.74625
 42515,'42515','Notre-Dame / Chomedey',45.54435,-73.73893
 42516,'42516','Notre-Dame / Curé-Labelle',45.541215,-73.74835
 42517,'42517','Notre-Dame-De-Fatima / Brouage',45.581272,-73.68375
@@ -2036,7 +2036,7 @@
 43416,'43416','Cartier / Armand-Frappier',45.544906,-73.72158
 43417,'43417','Dagenais / Gabriel',45.579191,-73.79969
 43419,'43419','Rio / Rio',45.6119,-73.74485
-43420,'43420','Notre-Dame / Montgolfier',45.531987,-73.78046
+43420,'43420','Notre-Dame / Montgolfier',45.532388,-73.78075
 43421,'43421','Notre-Dame / Lavatère',45.529272,-73.78783
 43422,'43422','Notre-Dame / Josaphat-Demers',45.527426,-73.79165
 43423,'43423','Notre-Dame / Pierre',45.525743,-73.79534
@@ -2191,7 +2191,7 @@
 45069,'45069','Maurice-Cullen / 5555',45.626782,-73.64929
 45071,'45071','Montée St-François / Établissement Leclerc',45.620726,-73.64903
 45072,'45072','Maurice-Cullen / Ernest-Cormier',45.629209,-73.6517
-45074,'45074','Montée St-François / Maurice-Cullen',45.623711,-73.65229
+45074,'45074','Maurice-Cullen / Montée St-François',45.623711,-73.65229
 45076,'45076','Ernest-Cormier / 5540',45.628144,-73.65332
 46007,'46007','Samson / Lévesque',45.52952,-73.75555
 46008,'46008','Samson / 2e Rue',45.530639,-73.75396
@@ -2705,6 +2705,10 @@
 46597,'46597','Carrefour / Terry-Fox',45.569158,-73.74818
 46598,'46598','Robert-Bourassa / Marché Adonis',45.614405,-73.68285
 46599,'46599','Robert-Bourassa / Adonis',45.614164,-73.68265
+46603,'46603','Chomedey / 1515',45.552042,-73.74637
+46604,'46604','Ste-Rose / 15e Avenue',45.56273,-73.85878
+46605,'46605','Ste-Rose / 15e Avenue',45.562527,-73.85887
+46606,'46606','Notre-Dame / Montgolfier',45.53189,-73.78109
 47002,'47002','Métro Cartier Quai:2',45.559923,-73.6825
 47012,'47012','Métro Cartier Quai:12',45.559569,-73.68208
 47017,'47017','Métro Cartier Quai:2',45.559923,-73.6825
