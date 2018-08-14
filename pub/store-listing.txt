@@ -5,13 +5,13 @@ Laval STL buses for MonTransit.
 Schedule. Real time predictions & alerts.
 ----------
 What's new in this version?:
-Schedule from June 23, 2018 to August 24, 2018.
-Tweets from @stlsynchro.
+Schedule from June 23, 2018 to January 4, 2019.
+Tweets from @STLSynchro.
 ----------
 Full description:
 This application adds Laval STL buses information to MonTransit.
 
-The app contains the planned schedule as well as real time predictions and alerts from NextBus and the latest news from YouTube and @stlsynchro on Twitter.
+The app contains the planned schedule as well as real time predictions and alerts from NextBus and the latest news from YouTube and @STLSynchro on Twitter.
 
 STL serves Laval and Montreal in Quebec, Canada.
 
