@@ -1,14 +1,3 @@
-Title: Laval STL Bus - MonTransit
-----------
-Short description:
-Laval STL buses for MonTransit.
-Schedule. Real time predictions & alerts.
-----------
-What's new in this version?:
-Schedule from August 24, 2019 to January 3, 2020.
-Tweets from @STLSynchro.
-----------
-Full description:
 This application adds Laval STL buses information to MonTransit.
 
 The app contains the planned schedule as well as real time predictions and alerts from NextBus and the latest news from YouTube and @STLSynchro on Twitter.
@@ -17,7 +6,7 @@ STL serves Laval and Montreal in Quebec, Canada.
 
 Once this application is installed, the MonTransit app will display buses information (schedule...).
 
-This application only has a temporary icon and no screen: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
+This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
 
 You can install this application on the SD card but it is not recommended.
 
@@ -31,17 +20,3 @@ This app is not related with the Société de Transport de Laval.
 
 Permissions:
 - Other: required for real-time schedule predictions & alert messages (NextBus) & to read news from YouTube and Twitter.
-----------
-Application type: Applications
-----------
-Category: Transportation
-----------
-Content rating: Low Maturity
-----------
-Website: https://github.com/mtransitapps/ca-laval-stl-bus-android
-----------
-Email: mtransit.apps+GooglePlay@gmail.com
-----------
-Phone: 
-----------
-Privacy Policy:
