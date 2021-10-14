@@ -1,2 +1,1 @@
-Laval STL buses for MonTransit.
-Schedule. Real time predictions & alerts.
+Laval STL buses for MonTransit. Schedule. Real time predictions & alerts.
