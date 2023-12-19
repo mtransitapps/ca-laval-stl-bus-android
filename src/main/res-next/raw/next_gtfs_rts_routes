@@ -1,50 +1,50 @@
-2,'2','Métro Henri-Bourassa / Métro Montmorency',''
-12,'12','Métro Cartier / Pont-Viau',''
-16,'16','Laval-Des-Rapides / Armand-Frappier / Métro Montmorency',''
-17,'17','Auteuil / Métro Cartier',''
-20,'20','Chomedey / Métro Cartier',''
-22,'22','Métro Cartier / St-François',''
-24,'24','Métro Cartier / Ste-Dorothée',''
-26,'26','Gare Ste-Dorothée / Métro Montmorency',''
-27,'27','Gare Vimont / Métro Cartier',''
-31,'31','Auteuil / Métro Henri-Bourassa',''
-33,'33','Métro Cartier / Métro Montmorency',''
-36,'36','Chomedey / Métro Montmorency',''
-37,'37','Métro Cartier / Ste-Rose',''
-39,'39','Auteuil / Term Le Carref',''
-40,'40','Chomedey / Métro Montmorency',''
-41,'41','Auteuil / Métro Cartier',''
-42,'42','St-François / Term Le Carref',''
-43,'43','Auteuil / Métro Cartier',''
-45,'45','Auteuil / Métro Montmorency',''
-46,'46','Laval-O / Métro Montmorency',''
-48,'48','Gare Vimont / Métro Cartier',''
-50,'50','St-Vincent-De-Paul / Term Le Carref',''
-52,'52','Métro Henri-Bourassa / St-François',''
-55,'55','Laval-O / Métro Henri-Bourassa',''
-56,'56','Métro Montmorency / Ste-Dorothée',''
-58,'58','Métro Cartier / St-Vincent-De-Paul',''
-60,'60','Chomedey / Métro Cartier',''
-61,'61','Fabreville / Métro Montmorency',''
-63,'63','Gare Ste-Rose / Métro Cartier',''
-65,'65','Gare Ste-Rose / Métro Montmorency',''
-66,'66','Ste-Dorothée / Term Le Carref',''
-70,'70','Métro Cartier / Métro Montmorency',''
-73,'73','Fabreville / Métro Cartier',''
-74,'74','Métro Cartier / St-François',''
-76,'76','Gare Ste-Dorothée / Métro Montmorency',''
-144,'144','Métro Côte-Vertu / Ste-Dorothée',''
-151,'151','Métro Côte-Vertu / Ste-Rose',''
-222,'222','Métro Cartier / St-Vincent-De-Paul',''
-252,'252','Métro Henri-Bourassa / St-François',''
-313,'313','Chomedey / Métro Côte-Vertu',''
-345,'345','Gare Vimont / Métro Henri-Bourassa',''
-360,'360','Chomedey',''
-713,'713','Métro Côte-Vertu / Ste-Dorothée',''
-730,'730','Gare Ste-Dorothée / Montréal',''
-744,'744','Gare Ste-Dorothée / Métro Côte-Vertu',''
-901,'901','Métro Cartier / St-François',''
-902,'902','Métro Côte-Vertu / Term Le Carref',''
-903,'903','Gare Ste-Dorothée / Métro Montmorency',''
-925,'925','Métro Radisson / St-François',''
-942,'942','Métro Montmorency / St-François',''
+2,'2','Métro Henri-Bourassa / Métro Montmorency','',-8819234,3
+12,'12','Métro Cartier / Pont-Viau','',-273398035,3
+16,'16','Laval-Des-Rapides / Armand-Frappier / Métro Montmorency','',-273397911,3
+17,'17','Auteuil / Métro Cartier','',-273397876,3
+20,'20','Chomedey / Métro Cartier','',-273397136,3
+22,'22','Métro Cartier / St-François','',-273397074,3
+24,'24','Métro Cartier / Ste-Dorothée','',-273397012,3
+26,'26','Gare Ste-Dorothée / Métro Montmorency','',-273396950,3
+27,'27','Gare Vimont / Métro Cartier','',-273396915,3
+31,'31','Auteuil / Métro Henri-Bourassa','',-273396140,3
+33,'33','Métro Cartier / Métro Montmorency','',-273396078,3
+36,'36','Chomedey / Métro Montmorency','',-273395989,3
+37,'37','Métro Cartier / Ste-Rose','',-273395954,3
+39,'39','Auteuil / Term Le Carref','',-273395892,3
+40,'40','Chomedey / Métro Montmorency','',-273395214,3
+41,'41','Auteuil / Métro Cartier','',-273395179,3
+42,'42','St-François / Term Le Carref','',-273395152,3
+43,'43','Auteuil / Métro Cartier','',-273395117,3
+45,'45','Auteuil / Métro Montmorency','',-273395055,3
+46,'46','Laval-O / Métro Montmorency','',-273395024,3
+48,'48','Gare Vimont / Métro Cartier','',-273394966,3
+50,'50','St-Vincent-De-Paul / Term Le Carref','',-273394253,3
+52,'52','Métro Henri-Bourassa / St-François','',-273394191,3
+55,'55','Laval-O / Métro Henri-Bourassa','',-273394094,3
+56,'56','Métro Montmorency / Ste-Dorothée','',-273394067,3
+58,'58','Métro Cartier / St-Vincent-De-Paul','',-273394005,3
+60,'60','Chomedey / Métro Cartier','',-273393292,3
+61,'61','Fabreville / Métro Montmorency','',-273393257,3
+63,'63','Gare Ste-Rose / Métro Cartier','',-273393195,3
+65,'65','Gare Ste-Rose / Métro Montmorency','',-273393133,3
+66,'66','Ste-Dorothée / Term Le Carref','',-273393106,3
+70,'70','Métro Cartier / Métro Montmorency','',-273392331,3
+73,'73','Fabreville / Métro Cartier','',-273392234,3
+74,'74','Métro Cartier / St-François','',-273392207,3
+76,'76','Gare Ste-Dorothée / Métro Montmorency','',-273392145,3
+144,'144','Métro Côte-Vertu / Ste-Dorothée','',114596671,3
+151,'151','Métro Côte-Vertu / Ste-Rose','',114597543,3
+222,'222','Métro Cartier / St-Vincent-De-Paul','',114624478,3
+252,'252','Métro Henri-Bourassa / St-François','',114627361,3
+313,'313','Chomedey / Métro Côte-Vertu','',114653343,3
+345,'345','Gare Vimont / Métro Henri-Bourassa','',114656288,3
+360,'360','Chomedey','',114658050,3
+713,'713','Métro Côte-Vertu / Ste-Dorothée','',114772507,3
+730,'730','Gare Ste-Dorothée / Montréal','',114774336,3
+744,'744','Gare Ste-Dorothée / Métro Côte-Vertu','',114775417,3
+901,'901','Métro Cartier / St-François','',114831066,3
+902,'902','Métro Côte-Vertu / Term Le Carref','',114831097,3
+903,'903','Gare Ste-Dorothée / Métro Montmorency','',114831128,3
+925,'925','Métro Radisson / St-François','',114833112,3
+942,'942','Métro Montmorency / St-François','',114834937,3
