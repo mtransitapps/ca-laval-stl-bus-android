@@ -1,6 +1,6 @@
-'OCTO24DIM',22201,73500,,'',2,29000,,'',2,39800,,'',2,81500,,'',2,9800,,'',2
-'OCTO24SAM',22201,73500,,'',2,29000,,'',2,39800,,'',2,81500,,'',2,9800,,'',2,8800,,'',2,10700,,'',2
-'OCTO24SEM',22201,72800,,'',2,1000,,'',2,9000,,'',2,59300,,'',2,10300,,'',2,9200,,'',2,2000,,'',2,7900,,'',2,2000,,'',2,8000,,'',2,62500,,'',2
-'OCTO24DIM',32201,53200,,'',2,80000,,'',2,79900,,'',2
-'OCTO24SAM',32201,53200,,'',2,80200,,'',2
-'OCTO24SEM',32201,53500,,'',2,2000,,'',2,6800,,'',2,70900,,'',2,80000,,'',2
+'OCTO24DIM',22201,73500,0,'St-Vincent-De-Paul',2,29000,0,'St-Vincent-De-Paul',2,39800,0,'St-Vincent-De-Paul',2,81500,0,'St-Vincent-De-Paul',2,9800,0,'St-Vincent-De-Paul',2
+'OCTO24SAM',22201,73500,0,'St-Vincent-De-Paul',2,29000,0,'St-Vincent-De-Paul',2,39800,0,'St-Vincent-De-Paul',2,81500,0,'St-Vincent-De-Paul',2,9800,0,'St-Vincent-De-Paul',2,8800,0,'St-Vincent-De-Paul',2,10700,0,'St-Vincent-De-Paul',2
+'OCTO24SEM',22201,72800,0,'St-Vincent-De-Paul',2,1000,0,'St-Vincent-De-Paul',2,9000,0,'St-Vincent-De-Paul',2,59300,0,'St-Vincent-De-Paul',2,10300,0,'St-Vincent-De-Paul',2,9200,0,'St-Vincent-De-Paul',2,2000,0,'St-Vincent-De-Paul',2,7900,0,'St-Vincent-De-Paul',2,2000,0,'St-Vincent-De-Paul',2,8000,0,'St-Vincent-De-Paul',2,62500,0,'St-Vincent-De-Paul',2
+'OCTO24DIM',32201,53200,0,'Duvernay',2,80000,0,'Duvernay',2,79900,0,'Duvernay',2
+'OCTO24SAM',32201,53200,0,'Duvernay',2,80200,0,'Duvernay',2
+'OCTO24SEM',32201,53500,0,'Duvernay',2,2000,0,'Duvernay',2,6800,0,'Duvernay',2,70900,0,'Duvernay',2,80000,0,'Duvernay',2
