@@ -86,7 +86,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String provideMissingTripHeadSign(@NotNull GTrip gTrip) {
 		//noinspection DiscouragedApi
-		final String routeId = gTrip.getRouteId();
+		final String routeId = gTrip.getOriginalRouteId();
 		return routeId.substring(routeId.length() - 1); // last character = E/O/N/S (not W)
 	}
 
