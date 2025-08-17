@@ -30,11 +30,6 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return LANG_FR;
 	}
 
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
-	}
-
 	@NotNull
 	@Override
 	public String getAgencyName() {
@@ -90,7 +85,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@NotNull
 	@Override
 	public String provideMissingTripHeadSign(@NotNull GTrip gTrip) {
-		//noinspection deprecation
+		//noinspection DiscouragedApi
 		final String routeId = gTrip.getRouteId();
 		return routeId.substring(routeId.length() - 1); // last character = E/O/N/S (not W)
 	}
