@@ -117,6 +117,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return CleanUtils.cleanLabelFR(tripHeadsign);
 	}
 
+	@Override
+	public @Nullable String getStopIdCleanupRegex() {
+		return "^[A-Z]+\\d{2}|[NSEO]$"; // stop ID is like MMMMyyStopCode (ex: "JANV24CP12345") for stop code "CP12345"
+	}
+
 	private static final Pattern REMOVE_STOP_CODE_STOP_NAME = Pattern.compile("\\[[0-9]{5}]");
 
 	private static final Pattern START_WITH_FACE_A = Pattern.compile("^(face à )", Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE | Pattern.CANON_EQ);
