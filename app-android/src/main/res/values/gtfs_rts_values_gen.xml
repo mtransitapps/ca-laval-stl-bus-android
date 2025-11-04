@@ -7,4 +7,5 @@
     <string name="gtfs_rts_timezone">America/Montreal</string>
     <string name="gtfs_rts_color">151F6D</string>
     <string name="gtfs_rts_route_id_cleanup_regex">^[A-Z]+\\d{2}|[NSEO]$</string>
+    <string name="gtfs_rts_stop_id_cleanup_regex">^[A-Z]+\\d{2}|[NSEO]$</string>
 </resources>
