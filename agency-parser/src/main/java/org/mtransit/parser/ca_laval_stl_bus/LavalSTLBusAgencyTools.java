@@ -6,10 +6,11 @@ import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.RegexUtils;
 import org.mtransit.commons.StringUtils;
 import org.mtransit.parser.DefaultAgencyTools;
+import org.mtransit.parser.gtfs.data.GCalendarDate;
 import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
-import org.mtransit.parser.mt.data.MTrip;
+import org.mtransit.parser.mt.data.MDirection;
 
 import java.util.Collections;
 import java.util.List;
@@ -43,6 +44,15 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
+	public boolean excludeCalendarDate(@NotNull GCalendarDate gCalendarDate) {
+		//noinspection DiscouragedApi
+		if (gCalendarDate.getServiceId().equals("OCTO25SAM") && gCalendarDate.isAfter(20251114)) {
+			return EXCLUDE; // already covered by "OCRE25SAM", feed mistake, can be removed after 20251115
+		}
+		return super.excludeCalendarDate(gCalendarDate);
+	}
+
+	@Override
 	public boolean defaultRouteIdEnabled() {
 		return true;
 	}
@@ -69,7 +79,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		routeLongName = CleanUtils.SAINT.matcher(routeLongName).replaceAll(CleanUtils.SAINT_REPLACEMENT);
 		routeLongName = CleanUtils.cleanBounds(Locale.FRENCH, routeLongName);
 		routeLongName = CleanUtils.cleanStreetTypesFRCA(routeLongName);
-		return CleanUtils.cleanLabel(routeLongName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), routeLongName);
 	}
 
 	@Override
@@ -104,7 +114,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public List<Integer> getDirectionTypes() {
 		return Collections.singletonList(
-				MTrip.HEADSIGN_TYPE_DIRECTION // used by real-time API
+				MDirection.HEADSIGN_TYPE_DIRECTION // used by real-time API
 		);
 	}
 
