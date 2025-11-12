@@ -12,6 +12,7 @@ import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MDirection;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
@@ -46,8 +47,10 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public boolean excludeCalendarDate(@NotNull GCalendarDate gCalendarDate) {
 		//noinspection DiscouragedApi
-		if (gCalendarDate.getServiceId().equals("OCTO25SAM") && gCalendarDate.isAfter(20251114)) {
-			return EXCLUDE; // already covered by "OCRE25SAM", feed mistake, can be removed after 20251115
+		final String serviceId = gCalendarDate.getServiceId();
+		final List<String> serviceIds = Arrays.asList("OCTO25SEM", "OCTO25SAM", "OCTO25DIM");
+		if (serviceIds.contains(serviceId) && gCalendarDate.isAfter(20251115)) {
+			return EXCLUDE; // already covered by "OCRE25*", feed mistake, can be removed after 20251115
 		}
 		return super.excludeCalendarDate(gCalendarDate);
 	}
