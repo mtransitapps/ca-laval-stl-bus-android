@@ -75,6 +75,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return "^[A-Z]+\\d{2}|[NSEO]$"; // route ID is like MMMMyyRSNd (ex: "JANV2412E") for 12 east
 	}
 
+	@Override
+	public boolean verifyRouteIdsUniqueness() {
+		return false; // merging routes
+	}
+
 	@NotNull
 	@Override
 	public String cleanRouteLongName(@NotNull String routeLongName) {
