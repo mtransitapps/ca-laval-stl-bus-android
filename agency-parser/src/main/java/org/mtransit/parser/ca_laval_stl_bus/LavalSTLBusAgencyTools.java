@@ -55,11 +55,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return super.excludeCalendarDate(gCalendarDate);
 	}
 
-	@Override
-	public @Nullable String getServiceIdCleanupRegex() {
-		return "^[A-Z]+\\d{2}"; // service ID is like MMMMyyABC (ex: "JANV24SEM" for "semaine")
-	}
-
+	// @Override
+	// public @Nullable String getServiceIdCleanupRegex() {
+	// 	return "^[A-Z]+\\d{2}"; // service ID is like MMMMyyABC (ex: "JANV24SEM" for "semaine")
+	// }
+	//
 	@Override
 	public boolean defaultRouteIdEnabled() {
 		return true;
@@ -131,11 +131,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		);
 	}
 
-	@Override
-	public @Nullable String getTripIdCleanupRegex() {
-		return "^[A-Z]+\\d{2}\\d+[NSEO]"; // route ID is like MMMMyyRSNdTripId (ex: "OCRE2512E2D10816210515") for 12 east
-	}
-
+	// @Override
+	// public @Nullable String getTripIdCleanupRegex() {
+	// 	return "^[A-Z]+\\d{2}\\d+[NSEO]"; // route ID is like MMMMyyRSNdTripId (ex: "OCRE2512E2D10816210515") for 12 east
+	// }
+	//
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
