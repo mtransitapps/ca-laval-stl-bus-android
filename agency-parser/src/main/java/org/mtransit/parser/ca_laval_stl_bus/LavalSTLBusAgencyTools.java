@@ -56,6 +56,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
+	public @Nullable String getServiceIdCleanupRegex() {
+		return "^[A-Z]+\\d{2}"; // service ID is like MMMMyyABC (ex: "JANV24SEM" for "semaine")
+	}
+
+	@Override
 	public boolean defaultRouteIdEnabled() {
 		return true;
 	}
@@ -126,6 +131,11 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		);
 	}
 
+	@Override
+	public @Nullable String getTripIdCleanupRegex() {
+		return "^[A-Z]+\\d{2}\\d+[NSEO]"; // route ID is like MMMMyyRSNdTripId (ex: "OCRE2512E2D10816210515") for 12 east
+	}
+
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
@@ -137,7 +147,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 
 	@Override
 	public @Nullable String getStopIdCleanupRegex() {
-		return "^[A-Z]+\\d{2}|[NSEO]$"; // stop ID is like MMMMyyStopCode (ex: "JANV24CP12345") for stop code "CP12345"
+		return "^[A-Z]+\\d{2}"; // stop ID is like MMMMyyStopCode (ex: "JANV24CP12345") for stop code "CP12345"
 	}
 
 	private static final Pattern REMOVE_STOP_CODE_STOP_NAME = Pattern.compile("\\[[0-9]{5}]");
