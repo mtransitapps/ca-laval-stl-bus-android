@@ -59,6 +59,12 @@
             <meta-data
                 android:name="@string/status_provider_target"
                 android:value="@string/next_bus_for_poi_authority" />
+            <meta-data
+                android:name="@string/vehicle_location_provider"
+                android:value="@string/vehicle_location_provider" />
+            <meta-data
+                android:name="@string/vehicle_location_provider_target"
+                android:value="@string/next_bus_for_poi_authority" />
         </provider>
         <!-- TWITTER NEWS PROVIDER -->
         <!-- DISABLED: no new post since 2023
