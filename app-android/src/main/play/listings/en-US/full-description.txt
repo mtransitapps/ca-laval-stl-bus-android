@@ -6,15 +6,15 @@ STL serves Laval and Montreal in Quebec, Canada.
 
 Once this application is installed, the MonTransit app will display buses information (schedule...).
 
-This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link https://bit.ly/MonTransitPlay
+This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link https://goo.gl/pCk5mV
 
 You can install this application on the SD card but it is not recommended.
 
-The information comes from the GTFS file provided by the Société de Transport de Laval.
-https://www.stl.laval.qc.ca/en/stl-synchro/developers/
-
 This application is free and open-source:
 https://github.com/mtransitapps/ca-laval-stl-bus-android
+
+The information comes from the GTFS file provided by the Société de Transport de Laval.
+https://stlaval.ca/about-us/public-information/open-data
 
 This app is not related with the Société de Transport de Laval.
 
