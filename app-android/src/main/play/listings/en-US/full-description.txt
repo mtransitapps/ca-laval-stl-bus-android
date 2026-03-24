@@ -10,11 +10,11 @@ This application only has a temporary icon: download the MonTransit app (free) i
 
 You can install this application on the SD card but it is not recommended.
 
-The information comes from the GTFS file provided by the Société de Transport de Laval.
-https://www.stl.laval.qc.ca/en/stl-synchro/developers/
-
 This application is free and open-source:
 https://github.com/mtransitapps/ca-laval-stl-bus-android
+
+The information comes from the GTFS file provided by the Société de Transport de Laval.
+https://stlaval.ca/about-us/public-information/open-data
 
 This app is not related with the Société de Transport de Laval.
 
