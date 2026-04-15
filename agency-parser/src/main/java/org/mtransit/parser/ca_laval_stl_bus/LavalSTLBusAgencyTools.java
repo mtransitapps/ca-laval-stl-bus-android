@@ -123,6 +123,8 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return "^[A-Z]+\\d{2}\\d+[NSEO]"; // route ID is like MMMMyyRSNdTripId (ex: "OCRE2512E2D10816210515") for 12 east
 	}
 
+	private static final Pattern STARTS_WITH_DIRECTION_HEADSIGN_VALUE_ = Pattern.compile("^[EOWNS]\\b\\s*", Pattern.CASE_INSENSITIVE);
+
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
@@ -130,6 +132,13 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = CleanUtils.cleanStreetTypesFRCA(tripHeadsign);
 		tripHeadsign = CleanUtils.CLEAN_ET.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_ET_REPLACEMENT);
 		return CleanUtils.cleanLabelFR(tripHeadsign);
+	}
+
+	@NotNull
+	@Override
+	public String cleanStopHeadSign(@NotNull String stopHeadsign) {
+		stopHeadsign = STARTS_WITH_DIRECTION_HEADSIGN_VALUE_.matcher(stopHeadsign).replaceAll(StringUtils.EMPTY);
+		return super.cleanStopHeadSign(stopHeadsign);
 	}
 
 	@Override
