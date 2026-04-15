@@ -138,6 +138,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String cleanStopHeadSign(@NotNull String stopHeadsign) {
 		stopHeadsign = STARTS_WITH_DIRECTION_HEADSIGN_VALUE_.matcher(stopHeadsign).replaceAll(StringUtils.EMPTY);
+		return super.cleanStopHeadSign(stopHeadsign);
 	}
 
 	@Override
