@@ -128,11 +128,16 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
-		tripHeadsign = STARTS_WITH_DIRECTION_HEADSIGN_VALUE_.matcher(tripHeadsign).replaceAll(StringUtils.EMPTY);
 		tripHeadsign = CleanUtils.keepToFR(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanStreetTypesFRCA(tripHeadsign);
 		tripHeadsign = CleanUtils.CLEAN_ET.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_ET_REPLACEMENT);
 		return CleanUtils.cleanLabelFR(tripHeadsign);
+	}
+
+	@NotNull
+	@Override
+	public String cleanStopHeadSign(@NotNull String stopHeadsign) {
+		stopHeadsign = STARTS_WITH_DIRECTION_HEADSIGN_VALUE_.matcher(stopHeadsign).replaceAll(StringUtils.EMPTY);
 	}
 
 	@Override
