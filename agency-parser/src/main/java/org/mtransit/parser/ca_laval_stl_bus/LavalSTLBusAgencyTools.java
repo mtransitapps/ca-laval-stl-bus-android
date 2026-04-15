@@ -123,7 +123,7 @@ public class LavalSTLBusAgencyTools extends DefaultAgencyTools {
 		return "^[A-Z]+\\d{2}\\d+[NSEO]"; // route ID is like MMMMyyRSNdTripId (ex: "OCRE2512E2D10816210515") for 12 east
 	}
 
-	private static final Pattern STARTS_WITH_DIRECTION_HEADSIGN_VALUE_ = Pattern.compile("^(E|O|W|N|S", Pattern.CASE_INSENSITIVE);
+	private static final Pattern STARTS_WITH_DIRECTION_HEADSIGN_VALUE_ = Pattern.compile("^[EOWNS]\\b\\s*", Pattern.CASE_INSENSITIVE);
 
 	@NotNull
 	@Override
