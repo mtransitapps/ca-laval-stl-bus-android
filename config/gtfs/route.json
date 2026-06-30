@@ -1,0 +1,29 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": true,
+    "route_id_cleanup_regex": "^[A-Z]+\\d{2}|[NSEO]$",
+    "route_id_cleanup_regex_comment": "route ID is like MMMMyyRSNd (ex: \"JANV2412E\") for 12 east",
+    "route_id_not_unique_allowed": true,
+    "route_id_not_unique_allowed_comment": "merging routes",
+    "default_route_long_name_enabled": true,
+    "direction_types": [
+        1
+    ],
+    "direction_types_comment": "Cardinal direction only, used by NextBus real-time API",
+    "direction_splitter_enabled": true,
+    "direction_finder_enabled": true,
+    "trip_id_cleanup_regex": "^[A-Z]+\\d{2}",
+    "trip_id_cleanup_regex_comment": "keep RSN to keep trip ID unique | trip ID is like MMMMyyRSNdTripId (ex: \"OCRE25\"+\"12E\"+\"2D10816210515\") for 12 east",
+    "trip_headsign_remove_via": true,
+    "trip_headsign_cleaners": [],
+    "use_stop_code_for_stop_id": true,
+    "stop_id_cleanup_regex": "^[A-Z]+\\d{2}",
+    "stop_id_cleanup_regex_comment": "stop ID is like MMMMyyStopCode (ex: \"JANV24CP12345\") for stop code \"CP12345\"",
+    "stop_headsign_cleanup_regex": "^[EOWNS]\\b\\s*",
+    "stop_name_cleaners": [
+        {
+            "regex": "\\[[0-9]{5}]",
+            "comment": "remove stop code from stop name"
+        }
+    ]
+}

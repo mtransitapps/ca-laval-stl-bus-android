@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="next_bus_db_version">2</integer>
     <string name="next_bus_agency_tag">stl</string>
-    <string name="next_bus_for_poi_authority">@string/gtfs_rts_authority</string>
-    <bool name="next_bus_use_stop_code_as_stop_id">false</bool>
-    <bool name="next_bus_use_stop_id_as_stop_tag">false</bool>
     <string name="next_bus_messages_text_language_code">fr</string>
     <string name="next_bus_messages_text_secondary_language_code">en</string>
     <string name="next_bus_messages_text_bold_words">(pas de service|arr[eê]t)</string>
@@ -22,8 +18,6 @@
     <string-array name="next_bus_stop_tag_clean_replacement">
         <item /> <!-- empty string (remove) -->
     </string-array>
-    <bool name="next_bus_schedule_head_sign_clean_street_types">false</bool>
-    <bool name="next_bus_schedule_head_sign_clean_street_types_fr_ca">true</bool>
     <string-array name="next_bus_schedule_head_sign_clean_regex">
         <item>(saint)</item>
         <item>^\\d+\\s</item><!-- starts with RSN -->
@@ -40,9 +34,5 @@
         <item /> <!-- empty string (remove) -->
     </string-array>
     <integer name="next_bus_schedule_head_sign_use_direction_title">0</integer> <!-- FALSE -->
-    <string-array name="next_bus_schedule_head_sign_direction_title_regex" />
-    <string-array name="next_bus_schedule_head_sign_direction_title_replacement" />
     <integer name="next_bus_schedule_head_sign_use_predictions_dir_title_because_no_predictions">0</integer> <!-- FALSE -->
-    <string-array name="next_bus_schedule_head_sign_predictions_dir_title_because_no_predictions_regex" />
-    <string-array name="next_bus_schedule_head_sign_predictions_dir_title_because_no_predictions_replacement" />
 </resources>
