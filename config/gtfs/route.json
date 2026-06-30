@@ -12,6 +12,8 @@
     "direction_types_comment": "Cardinal direction only, used by NextBus real-time API",
     "direction_splitter_enabled": true,
     "direction_finder_enabled": true,
+    "trip_headsign_from_original_route_id_regex": "^[A-Z]+\\d+",
+    "trip_headsign_from_original_route_id_regex_comment": "keep only last character 'NSEO'.",
     "trip_id_cleanup_regex": "^[A-Z]+\\d{2}",
     "trip_id_cleanup_regex_comment": "keep RSN to keep trip ID unique | trip ID is like MMMMyyRSNdTripId (ex: \"OCRE25\"+\"12E\"+\"2D10816210515\") for 12 east",
     "trip_headsign_remove_via": true,
